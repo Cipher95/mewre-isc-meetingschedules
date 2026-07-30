@@ -23,7 +23,7 @@ if (isset($_SESSION['username'])) {
     <meta property="og:description" content="Official Information Systems Center portal for the Ministry of Electricity, Water & Renewable Energy, Kuwait. Manage meeting schedule, and system reports." />
     <meta property="og:url" content="https://mewre-isc-meetingschedule.infinityfreeapp.com/" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://en.wikipedia.org/wiki/Emblem_of_Kuwait#/media/File:Emblem_of_the_State_of_Kuwait.svg/2" />
+    <meta property="og:image" content="https://en.wikipedia.org/wiki/Emblem_of_Kuwait#/media/File:Emblem_of_the_State_of_Kuwait.svg" />
     
     <!-- Mobile Browser Theme Color (Official MEW Blue) -->
     <meta name="theme-color" content="#004b87" />
