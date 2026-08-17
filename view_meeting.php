@@ -18,12 +18,9 @@ $username = $_SESSION['username'];
 $role = $_SESSION['role'];
 
 // Fetch the meeting
-/*if ($role == 'User') {
-    $sql = "SELECT * FROM meetings WHERE id = $id AND username = '$username'";
-} else {
+if ($role == 'User') {
     $sql = "SELECT * FROM meetings WHERE id = $id";
-}*/
-$sql = "SELECT * FROM meetings";
+}
 
 $result = $conn->query($sql);
 
